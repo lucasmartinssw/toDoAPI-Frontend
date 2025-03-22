@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;   
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 600px;
+
+    margin-top: 20px;
+
+    padding: 24px;
+    border: 1px solid #c1c1c1;
+    border-radius: 8px;
+}
+h1{
+    margin-bottom: 12px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+input {
+    padding: 4px 6px;
+    outline: none;
+    width: 360px;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+}
+
+.btnSubmit, .btnRegister, .btnClear {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    color: #fafafa;
+    border-radius: 4px;
+}
+
+.btnSubmit {
+    background-color: rgb(44, 103, 192);
+}
+
+.btnRegister {
+    background-color: rgb(64, 192, 44);
+}
+.btnClear {
+    background-color: rgb(231, 90, 52);
+}
+
+
+p,span {
+    font-size: 12px;
+}
+
+span {
+    color: rgb(44, 103, 192);
+}
+
+.btnChange {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.error {
+    background-color: rgba(235, 134, 134, 0.442);
+    color: red;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.success {
+    background-color: rgba(91, 232, 86, 0.442);
+    color: green;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px;
+}
